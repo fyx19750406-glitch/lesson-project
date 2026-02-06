@@ -1,0 +1,140 @@
+.admin {
+  min-height: 100vh;
+}
+
+.detail-header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.admin-card {
+  margin-bottom: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.course-info {
+  margin-bottom: 30px;
+}
+
+.course-info h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.course-info p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.course-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stat-card p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.case-detail {
+  padding: 20px 0;
+}
+
+.case-detail h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.case-detail p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.case-thumbnail {
+  margin-top: 20px;
+}
+
+.case-thumbnail img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .admin-tabs {
+    justify-content: center;
+  }
+
+  .admin-tabs button {
+    flex: 1;
+    min-width: 150px;
+  }
+
+  .card-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .card-actions {
+    flex-wrap: wrap;
+  }
+}

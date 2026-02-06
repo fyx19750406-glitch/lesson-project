@@ -1,0 +1,167 @@
+.student-center {
+  min-height: 100vh;
+}
+
+.detail-header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-card {
+  text-align: center;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-card h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-course {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.profile-progress {
+  margin-bottom: 20px;
+}
+
+.profile-progress p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.profile-info {
+  color: #666;
+  font-size: 14px;
+}
+
+.service-card {
+  height: 100%;
+}
+
+.service-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.service-content {
+  padding: 20px 0;
+}
+
+.service-item {
+  margin-bottom: 40px;
+}
+
+.service-item h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.benefit-card {
+  margin-bottom: 20px;
+}
+
+.benefit-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.benefit-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.benefit-expiry,
+.benefit-remaining {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.benefit-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.benefit-list li {
+  padding: 8px 0;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.support-card {
+  margin-bottom: 20px;
+}
+
+.support-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.support-card p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .service-tabs {
+    justify-content: center;
+  }
+
+  .service-tabs button {
+    flex: 1;
+    min-width: 100px;
+  }
+}
