@@ -80,30 +80,36 @@ function Home() {
       <section className="banner">
         <Carousel autoplay autoplaySpeed={3000} dots={true}>
           <div>
-            <div className="banner-content">
-              <h1>5天集训+2个月陪跑</h1>
-              <p>零基础到专业 限时优惠立省1300元</p>
-              <Button type="primary" size="large" onClick={handleRegister}>
-                立即报名
-              </Button>
+            <div className="banner-slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&h=500&fit=crop)' }}>
+              <div className="banner-content">
+                <h1>5天集训+2个月陪跑</h1>
+                <p>零基础到专业 限时优惠立省1300元</p>
+                <Button type="primary" size="large" onClick={handleRegister}>
+                  立即报名
+                </Button>
+              </div>
             </div>
           </div>
           <div>
-            <div className="banner-content">
-              <h1>掌握AI创作工具</h1>
-              <p>独立完成图文、视频、小说推文等内容创作</p>
-              <Button type="primary" size="large" onClick={handleRegister}>
-                立即报名
-              </Button>
+            <div className="banner-slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-15172453868074-b6436a2a983c?w=1200&h=500&fit=crop)' }}>
+              <div className="banner-content">
+                <h1>掌握AI创作工具</h1>
+                <p>独立完成图文、视频、小说推文等内容创作</p>
+                <Button type="primary" size="large" onClick={handleRegister}>
+                  立即报名
+                </Button>
+              </div>
             </div>
           </div>
           <div>
-            <div className="banner-content">
-              <h1>建立个人作品集</h1>
-              <p>了解内容变现路径和商业化方法</p>
-              <Button type="primary" size="large" onClick={handleRegister}>
-                立即报名
-              </Button>
+            <div className="banner-slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=500&fit=crop)' }}>
+              <div className="banner-content">
+                <h1>建立个人作品集</h1>
+                <p>了解内容变现路径和商业化方法</p>
+                <Button type="primary" size="large" onClick={handleRegister}>
+                  立即报名
+                </Button>
+              </div>
             </div>
           </div>
         </Carousel>

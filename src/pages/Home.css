@@ -34,30 +34,26 @@
   color: white;
   text-align: center;
   padding: 80px 20px;
-  min-height: 500px;
-  display: flex;
-  align-items: center;
 }
 
-.banner .slick-slider {
+.banner-slide {
   width: 100%;
-}
-
-.banner .slick-list {
-  width: 100%;
-}
-
-.banner .slick-slide {
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 400px;
 }
 
 .banner-content {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
 }
 
 .banner-content h1 {
