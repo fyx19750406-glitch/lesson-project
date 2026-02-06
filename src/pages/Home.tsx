@@ -115,6 +115,14 @@ function Home() {
         </Carousel>
       </section>
 
+      <section className="intro-section">
+        <div className="container intro-content">
+          <h2 className="intro-title">探索AI之道</h2>
+          <p className="intro-subtitle">全网最强科普AI知识的专享网站 🚀</p>
+          <p className="intro-description">悟空非空也 出品的粉丝专享网站，帮助粉丝快速高效地学习和应用 AI 技术。</p>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container">
           <h2 className="section-title">课程亮点</h2>
