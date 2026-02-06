@@ -34,11 +34,30 @@
   color: white;
   text-align: center;
   padding: 80px 20px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .slick-slider {
+  width: 100%;
+}
+
+.banner .slick-list {
+  width: 100%;
+}
+
+.banner .slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
 }
 
 .banner-content {
   max-width: 800px;
   margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .banner-content h1 {
