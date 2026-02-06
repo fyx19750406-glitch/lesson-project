@@ -120,6 +120,32 @@ function Home() {
           <h2 className="intro-title">探索AI之道</h2>
           <p className="intro-subtitle">全网最强科普AI知识的专享网站 🚀</p>
           <p className="intro-description">悟空非空也 出品的粉丝专享网站，帮助粉丝快速高效地学习和应用 AI 技术。</p>
+          <Row gutter={[24, 24]} className="intro-images">
+            <Col xs={24} sm={12} md={8}>
+              <div className="intro-image-card">
+                <div className="intro-image-placeholder">
+                  <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop" alt="AI技术" />
+                </div>
+                <h3>AI技术</h3>
+              </div>
+            </Col>
+            <Col xs={24} sm={12} md={8}>
+              <div className="intro-image-card">
+                <div className="intro-image-placeholder">
+                  <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=300&fit=crop" alt="创作工具" />
+                </div>
+                <h3>创作工具</h3>
+              </div>
+            </Col>
+            <Col xs={24} sm={12} md={8}>
+              <div className="intro-image-card">
+                <div className="intro-image-placeholder">
+                  <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=400&h=300&fit=crop" alt="学习成长" />
+                </div>
+                <h3>学习成长</h3>
+              </div>
+            </Col>
+          </Row>
         </div>
       </section>
 
